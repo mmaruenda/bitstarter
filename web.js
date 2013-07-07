@@ -6,7 +6,7 @@ var fs = require('fs');
 
 var data;
 try{
-  data = fs.readFyileSync('index.html');
+  data = fs.readFileSync('index.html');
 } catch (e) {
  throw e;
 }
